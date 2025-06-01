@@ -575,8 +575,7 @@ export class ImageToPDFConverter {
     for (const [folderName, folderInfo] of Object.entries(directories)) {
       try {
         const displayName = folderName === "_root" ? "root" : folderName;
-        const timestamp = new Date().toISOString().slice(0, 10);
-        const outputFileName = `${displayName}_${timestamp}.pdf`;
+        const outputFileName = `${displayName}.pdf`;
         const outputPath = path.join(this.config.outputDir, outputFileName);
 
         console.log(`\n📝 正在生成: ${outputFileName}`);
@@ -600,7 +599,7 @@ export class ImageToPDFConverter {
 
 // 主程式入口 (使用預設配置)
 async function main(): Promise<void> {
-  const { defaultConfig } = await import('./config');
+  const { defaultConfig } = await import("./config");
   const converter = new ImageToPDFConverter(defaultConfig);
 
   try {
