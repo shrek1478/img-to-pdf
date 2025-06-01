@@ -1,0 +1,102 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript compiled output
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Custom config files (但保留範例文件)
+my-config.json
+custom-config.json
+
+# 測試輸出
+test-output/
+test-images/
+
+# 臨時文件
+temp_compressed/
+*.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# MacOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.temp
+
+# PDF output files (uncomment if you don't want to track generated PDFs)
+*.pdf
+
+# Compressed image cache
+compressed_images/

@@ -1,0 +1,28 @@
+{
+  "sourceDir": "/Users/he6463/Downloads/test-songs",
+  "outputDir": "/Users/he6463/Downloads",
+  "supportedFormats": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"],
+  "pageSize": "A4",
+  "margin": 0,
+  "imageQuality": 0.85,
+  "fitToPage": true,
+  "compressionLevel": 3,
+  "showFilename": false,
+  "backgroundColor": "#FFFFFF",
+  "minimumMargin": 0,
+  "fillMode": "custom",
+  "customMargin": {
+    "top": 15,
+    "bottom": 15,
+    "left": 0,
+    "right": 0
+  },
+  "preCompressImages": true,
+  "autoRotate": true,
+  "maxImageWidth": 1200,
+  "maxImageHeight": 1600,
+  "jpegQuality": 80,
+  "pngCompressionLevel": 8,
+  "webpQuality": 80,
+  "optimizeFileSize": true
+}
